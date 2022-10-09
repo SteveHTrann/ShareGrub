@@ -1,0 +1,295 @@
+.content{
+    float: left;
+    width: 45%;
+}
+
+.content_2{
+    float: right;
+    width: 50%;
+}
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(65, 173, 245);
+    color: white;
+    text-align: center;
+    /* height:200px; */
+ }
+
+.header{
+    float: left;
+    width:20%;
+}
+
+#logo_desc{
+    float: left;
+    font-family:PacBrush Script MT, Brush Script Std, cursive;
+    color: rgb(26, 46, 228);
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: -10px;
+}
+
+#logo{
+    float:left;
+    width: 60%;
+    height: auto;
+    border: 0px solid red;
+}
+
+#menu li{
+    list-style:none;
+    display:inline;
+     padding: 10px;
+    margin: 10px;
+    border: 0mm solid red;  
+}
+
+.menubar{
+    /* width:80%; */
+    height:70px;
+    background:#75cd6e;
+    float: right;
+    /* border: 1mm solid red; */
+    margin-top: 10px;
+    /* justify-content: flex-end; */
+}
+    
+#menu{
+    /* padding:0;
+    margin:0; */
+    line-height:40px;
+    float:left;
+    /* justify-content: flex-end; */ 
+}
+
+#menu li{
+    padding: 20px;
+}
+
+#menu a{
+    text-decoration:none;
+    color:rgb(76, 35, 242);
+    padding:8px;
+    margin:5px;
+    font-size:18px;
+    font-family:COMIC SANS MS;
+}
+    
+#menu a:hover{
+    color:rgb(118, 17, 233);
+    font-weight:bolder;
+    text-decoration:underline;
+    font-size: larger;
+}
+
+.main_content{
+  clear: both;
+  padding: 30px;
+  overflow: auto;
+  background: #CCFFCC;
+  background-color: #b3e2b3;
+}
+
+body{
+    background-color: #b3e2b3;
+}
+
+/* .main_gradient{
+    background-image: linear-gradient(to left top, rgb(140, 0, 255), rgb(0, 217, 255)); 
+} */
+
+/* #main_content_title, #main_content_desc{
+    color: white;
+} */
+
+#main_content_title{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#main_content_desc{
+    font-size: 30px;
+}
+#food_1{
+    width: 70%;
+    margin: 10%;
+    border: 0px solid red;
+    border-radius: 25%;
+  
+}
+
+.button {
+    background-color: #ab63e6;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    /* border: 1px solid red; */
+}
+
+
+
+
+
+/* Carousel Slideshow */
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+
+/* HERO CSS */
+
+.hero {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../img/handing-corn.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  filter: brightness(60%);
+}
+.hero-content {
+  position: relative;
+  font-family: "Monserrat", sans-serif;
+  color: white;
+  text-align: center;
+  margin: 0.625rem;
+}
+.hero-title {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.hero-subtitle {
+  font-size: 2rem;
+  font-weight: 200;
+  margin-top: 1rem;
+}
+.hero-button {
+  background-color: #ae2d59;
+  color: white;
+  border: 1px solid #cb376a;
+  margin-top: 5rem;
+  padding: 0.9375rem1.875rem;
+  font-family: "Monserrat", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 200;
+  cursor: pointer;
+}
+.hero-button:hover {
+  background-color: #cb376a;
+  border: 1px solid #db7598;
+}
+
+/* END HERO CSS */
