@@ -17,7 +17,6 @@ pending update (in progress)
 
 
 3. After the two steps above are completed, you are free to make your own branch with "git branch whateverNameGoesHere =)"
-
 <br>
   3a. After making a git branch, use "git checkout whateverNameGoesHere =)" to check into your branch.
   
