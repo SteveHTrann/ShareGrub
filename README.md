@@ -5,7 +5,11 @@ pending update (in progress)
 
 1. Type "git branch" to check what branch you are in. (YOU SHOULD BE IN  "MAIN" BRANCH). BUT IF NOT:
     1A. Do "git checkout main" to make sure you're on main branch.
+    
+    
 2. Then "git pull" to make sure any changes that were merged from any collaborators on the main branch are up to date.
+
+
 3. After the two steps above are completed, you are free to make your own branch with "git branch whateverNameGoesHere =)"
   3a. After making a git branch, use "git checkout whateverNameGoesHere =)" to check into your branch.
   
