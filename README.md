@@ -11,14 +11,10 @@ pending update (in progress)
     
     
 2. Then "git pull" to make sure any changes that were merged from any collaborators on the main branch are up to date.
-
-
 <br>
-
-
 3. After the two steps above are completed, you are free to make your own branch with "git branch whateverNameGoesHere =)"
 <br>
-  3a. After making a git branch, use "git checkout whateverNameGoesHere =)" to check into your branch.
+    3a. After making a git branch, use "git checkout whateverNameGoesHere =)" to check into your branch.
   
 
 
