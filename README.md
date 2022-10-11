@@ -7,8 +7,13 @@ pending update (in progress)
 <br>
     1A. Do "git checkout main" to make sure you're on main branch.
     
+    <br>
+    
     
 2. Then "git pull" to make sure any changes that were merged from any collaborators on the main branch are up to date.
+
+
+<br>
 
 
 3. After the two steps above are completed, you are free to make your own branch with "git branch whateverNameGoesHere =)"
