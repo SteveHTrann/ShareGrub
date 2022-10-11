@@ -16,7 +16,8 @@ pending update (in progress)
 <br>
     3a. After making a git branch, use "git checkout whateverNameGoesHere =)" to check into your branch.
   
-
+<br>
+<br>
 
 ** ALSO, I already created a commit back up log for us if any thing goes wrong, we can revert changes, but lets have some fun with this project =).**
 ________________________________________________________________________________________________________________________________
