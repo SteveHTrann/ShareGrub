@@ -4,6 +4,7 @@ pending update (in progress)
 **IMPORTANT: TO  COLLABORATORS AFTER YOU CLONED THE REPO, HERE ARE A FEW STEPS TO DO BEFORE YOU BEGIN MAKING YOUR OWN BRANCH":
 
 1. Type "git branch" to check what branch you are in. (YOU SHOULD BE IN  "MAIN" BRANCH). BUT IF NOT:
+<br>
     1A. Do "git checkout main" to make sure you're on main branch.
     
     
@@ -11,6 +12,8 @@ pending update (in progress)
 
 
 3. After the two steps above are completed, you are free to make your own branch with "git branch whateverNameGoesHere =)"
+
+<br>
   3a. After making a git branch, use "git checkout whateverNameGoesHere =)" to check into your branch.
   
 
